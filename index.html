@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Projecto Matematica Leonardo Andres Ospina Ramirez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>App Clima Unibagué - Projecto Matematica - Leonardo Andres Ospina Ramirez</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="shortcut icon" href="unibague.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-12">
+                                    <p class="text-center m-5 display-4 text-info">Ingresa la Longitud y la Latitud
+                                        <span class="text-success">(Coordenadas)</span></p>
+                                </div>
+                                <div class="col-6">
+                                    <label for="txtLongitud" class="text-success label">Longitud</label>
+                                    <input type="number" class="form-control" placeholder="Longitud" id="txtLongitud"
+                                        autofocus required>
+                                </div>
+                                <div class="col-6">
+                                    <label for="txtLatitud" class="text-success label">Latitud</label>
+                                    <input type="number" class="form-control" placeholder="Latitud" id="txtLatitud"
+                                        required>
+                                </div>
+                                <div class="col-12 mt-3 text-center">
+                                    <button type="button" class="btn btn-secondary btn-lg" id="btnUbicacion">Buscar
+                                        ubicacion</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="card mt-3">
+                    <div class="card-body text-center font-weight-normal">
+
+                        <h1 class="temperature-location text-secondary m-3"></h1>
+                        <h2 class="text-info mt-3">Temperatura</h2>
+                        <p class="temperature  text-success mt-4"></p>
+                        <span class="type badge badge-pill badge-secondary p-4 m-2 grados "></span>
+
+                        <h3 class="text-info">Resumen</h3>
+                        <p class="temperature-description mt-4"></p>
+
+                        <blockquote class="blockquote text-center">
+                            <p class="mb-0">Utilidad de las matematicas en Ing-Sistemas</p>
+                            <footer class="blockquote-footer">Leonardo Andres Ospina Ramirez <cite title="Source Title">2220191030</cite></footer>
+                        </blockquote>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
