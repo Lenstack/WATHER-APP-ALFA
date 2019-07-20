@@ -55,7 +55,7 @@ function obtenerCoordenadas() {
             // Almacenar la longitud y latitud
             longitud = posicion.coords.longitude;
             latitud = posicion.coords.latitude;
-            // Acer la peticion a la API
+            // Hacer la peticion a la API
             peticionAPI(longitud, latitud);
         });
 
